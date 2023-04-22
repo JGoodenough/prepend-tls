@@ -1,0 +1,11 @@
+{
+  "name": "prepend-tls",
+  "version": "1.0.0",
+  "description": "Prepends https://www. to URL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Goodenough",
+  "license": "ISC"
+}
