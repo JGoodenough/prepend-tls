@@ -5,8 +5,12 @@
   "description": "Prepends TLS URL scheme https:// to URLs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "author": "Jesse Goodenough",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.30.1"
+  }
 }
