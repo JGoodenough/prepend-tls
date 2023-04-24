@@ -1,7 +1,8 @@
 {
   "name": "prepend-tls",
-  "version": "1.0.0",
-  "description": "Prepends https://www. to URL.",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "Prepends TLS URL scheme https:// to URLs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
