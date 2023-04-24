@@ -12,15 +12,15 @@
 import prependTLS from 'prepend-tls';
 
 // Prepend https://
-prependTLS(jessegoodenough.com);
+prependTLS('jessegoodenough.com');
 //=> 'https://jessegoodenough.com'
 
 // Prepend http://
-prependTLS(jessegoodenough.com, { httpOnly: true });
+prependTLS('jessegoodenough.com', { httpOnly: true });
 //=> 'http://jessegoodenough.com'
 
 // Already included https:// returns url unchanged
-prependTLS(https://jessegoodenough.com);
+prependTLS('https://jessegoodenough.com');
 //=> 'https://jessegoodenough.com'
 
 ```
@@ -39,9 +39,10 @@ The URL to prepend `https://` or `http://` to.
 
 Type: object
 
-**httpOnly**
+    **httpOnly**
 
-Type: boolean
-Default: false
+    Type: boolean
 
-Prepend `http://` instead of `https://`
+    Default: false
+
+    Prepend `http://` instead of `https://`

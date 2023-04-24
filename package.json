@@ -1,6 +1,6 @@
 {
   "name": "prepend-tls",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "keywords": [
     "prepend",
     "protocol",
@@ -13,8 +13,7 @@
   "description": "Prepends TLS URL scheme https:// to URLs.",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "test": "vitest"
   },
   "author": "Jesse Goodenough",
   "license": "ISC",
