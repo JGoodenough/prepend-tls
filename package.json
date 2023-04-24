@@ -1,6 +1,6 @@
 {
   "name": "prepend-tls",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "Prepends TLS URL scheme https:// to URLs.",
   "main": "index.js",

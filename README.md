@@ -24,3 +24,24 @@ prependTLS(https://jessegoodenough.com);
 //=> 'https://jessegoodenough.com'
 
 ```
+
+# API
+
+**prependTLS(url, options?)**
+
+## url
+
+Type: string
+
+The URL to prepend `https://` or `http://` to.
+
+## options
+
+Type: object
+
+**httpOnly**
+
+Type: boolean
+Default: false
+
+Prepend `http://` instead of `https://`
