@@ -19,15 +19,7 @@ prependTLS(jessegoodenough.com);
 prependTLS(jessegoodenough.com, { httpOnly: true });
 //=> 'http://jessegoodenough.com'
 
-// Include default sub domain www.
-prependTLS(jessegoodenough.com, { includeSubDomain: true });
-//=> 'https://www.jessegoodenough.com'
-
-// Include custom sub domain blog.
-prependTLS(jessegoodenough.com, { includeSubDomain: true, customSubDomain: 'blog.' });
-//=> 'https://blog.jessegoodenough.com'
-
-// Already included https:// returns same string
+// Already included https:// returns url unchanged
 prependTLS(https://jessegoodenough.com);
 //=> 'https://jessegoodenough.com'
 
