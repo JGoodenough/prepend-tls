@@ -1,10 +1,15 @@
-const prependTLS = (url, { httpOnly = false } = {}) => {
+export type prependTLSOptions = {
+  httpOnly?: boolean;
+};
+
+const prependTLS = (url: string, options?: prependTLSOptions): string => {
   const httpsRegex = /^(https:\/\/).*$/gis;
   const httpOnlyRegex = /^(http:\/\/).*$/gis;
   const httpScheme = 'http://';
   const httpsScheme = 'https://';
   const containsHttps = url.match(httpsRegex);
   const containsHttp = url.match(httpOnlyRegex);
+  const { httpOnly } = options ? options : { httpOnly: false };
 
   if (containsHttps) {
     if (httpOnly) {
