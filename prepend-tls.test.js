@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import prependTLS from './index';
+import prependTLS from './src/index';
 
 describe('prepend-tls', () => {
   it('should prepend https:// to url', () => {

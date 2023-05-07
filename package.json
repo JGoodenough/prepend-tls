@@ -13,11 +13,13 @@
   "description": "Prepends TLS URL scheme https:// to URLs.",
   "main": "index.js",
   "scripts": {
+    "build": "npx tsc",
     "test": "vitest"
   },
   "author": "Jesse Goodenough",
   "license": "ISC",
   "devDependencies": {
+    "typescript": "^5.0.4",
     "vitest": "^0.30.1"
   }
 }
