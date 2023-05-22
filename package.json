@@ -1,6 +1,6 @@
 {
   "name": "prepend-tls",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "keywords": [
     "prepend",
     "protocol",
@@ -27,5 +27,7 @@
   },
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "homepage": "https://github.com/JGoodenough/prepend-tls#readme",
+  "bugs": "https://github.com/JGoodenough/prepend-tls/issues"
 }
